@@ -26,6 +26,7 @@ body > header {
     color:white;
     display: flex;
     height: 12vh;
+    align-items: center;
 }
 
 body > header > nav > ul {
@@ -47,7 +48,8 @@ body > main > article {
 }
 
 body > footer {
-    background-color: rgb(230, 197, 255);
+    background-color: rgb(75, 5, 168);
+    color: rgb(196, 168, 249);
 }
 
 /*see? We did it here with the footer^ again. This phenomenon is called SPECIFICITY and it is a concept vital to mark-up languages and coding in general.*/
