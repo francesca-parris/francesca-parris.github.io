@@ -22,12 +22,11 @@ ul {
 }*/
 
 
-
 body > header {               
     background-color: rgb(132, 0, 255);
     color:white;
-    display: flex;
-    /*height: 12vh;
+    /*display: flex;
+    height: 12vh;
     justify-content: space-around;
     align-items: center;*/
 }
@@ -44,11 +43,11 @@ body > header > nav > ul {
 
 }
 
-/*body > main > article {
+body > main > article {
     width: 70%;
     margin: auto;
+}
 
-}*/
 
 body > footer {
     background-color: rgb(216, 187, 255);
