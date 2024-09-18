@@ -3,23 +3,22 @@ body {
      margin: 0px;
 }
 
-/*when we use a '>' delimeter we can specifiy precisely which part of the html doc we are formatting (neat!) - this way we are saying 'please select which ever headers are a direct descendent of the body.'*/
+h1 {
+   margin: 0px;
 
-/*If the name of the font is in two words you must wrap the font name in "" to ensure the whitespace is not computed*/
-
-/*'#' are for IDs, '.' are for CLASSES.*/
-
-
-#logo {
-    margin: 1px;
-    padding: 8px;
-    font-family: "Protest Guerrilla", sans-serif;
-    align-items: center;
 }
 
 ul {
     margin: 0px;
 }
+
+/*#logo {
+    margin: 1px;
+    padding: 8px;
+    font-family: "Protest Guerrilla", sans-serif;
+    align-items: center;
+}*/
+
 
 
 body > header {               
@@ -43,11 +42,11 @@ body > header > nav > ul {
 
 }
 
-body > main > article {
+/*body > main > article {
     width: 70%;
     margin: auto;
 
-}
+}*/
 
 body > footer {
     background-color: rgb(216, 187, 255);
@@ -57,3 +56,9 @@ body > footer {
 /*see? We did it here with the footer^ again. This phenomenon is called SPECIFICITY and it is a concept vital to mark-up languages and coding in general.*/
 
 /*For classes like our navbutton^ always use a '.' before specifying it, to reference it properly.*/
+
+/*when we use a '>' delimeter we can specifiy precisely which part of the html doc we are formatting (neat!) - this way we are saying 'please select which ever headers are a direct descendent of the body.'*/
+
+/*If the name of the font is in two words you must wrap the font name in "" to ensure the whitespace is not computed*/
+
+/*'#' are for IDs, '.' are for CLASSES.*/
